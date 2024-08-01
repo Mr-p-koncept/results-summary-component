@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.wrapper {
+  justify-content: center;
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 23% auto;
+}
+
+.container-one {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+  color: white;
+  font-size: 50px;
+  border-radius: 20px;
+  padding: 25px 50px;
+}
+
+.container-one h2 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.big-circle {
+  height: 140px;
+  width: 140px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 30px 15px;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.big-circle h1 {
+  font-size: 70px;
+  padding: 25px;
+  margin-bottom: -40px;
+  margin-top: -40px;
+  font-weight: 1000;
+}
+
+.big-circle p {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.great {
+  margin-top: 4px;
+}
+
+.great h2 {
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+.great p {
+  width: 100%;
+  margin: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  line-break: 15px;
+  letter-spacing: .1px;
+}
+
+.container-two {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 40px;
+  display: block;
+  box-shadow: 1px 1px 1px black;
+}
+
+.container-two h2 {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 300px;
+  margin-bottom: 30px;
+}
+
+.reaction {
+  width: 310px;
+  display: flex;
+  margin-right: auto;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: hsl(0, 100%, 67%);
+  margin-top: 20px;
+  background-color: hsl(221, 100%, 96%);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.reaction p {
+  margin-right: 108px;
+  padding-left: 10px;
+}
+
+svg {
+  margin-left: 25px;
+}
+
+.eighty {
+  color: black;
+  margin-right: -150px;
+  font-weight: 400;
+}
+
+.memory {
+  width: 310px;
+  display: flex;
+  margin-right: auto;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: hsl(39, 100%, 56%);
+  margin-top: 20px;
+  background-color: hsl(221, 100%, 96%);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.memory p {
+  margin-right: 108px;
+  padding-left: 10px;
+}
+
+.nine {
+  color: black;
+  font-weight: 400;
+  display: flex;
+  margin-right: -20px;
+}
+
+.verbal {
+  width: 310px;
+  display: flex;
+  margin-right: auto;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: hsl(166, 100%, 37%);
+  margin-top: 20px;
+  background-color: hsl(221, 100%, 96%);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.verbal p {
+  margin-right: 108px;
+  padding-left: 10px;
+}
