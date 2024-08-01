@@ -99,7 +99,7 @@ body {
   border-radius: 20px;
   padding: 30px;
   display: block;
-  box-shadow: -20px 20px 50px rgb(182, 203, 204);
+  box-shadow: -20px 20px 55px rgb(182, 203, 204);
   margin-right: -220px;
 }
 
@@ -244,6 +244,7 @@ button {
   font-size: 14px;
   font-weight: bold;
   transition: .5s ease;
+  cursor: pointer;
 }
 
 button:hover{
