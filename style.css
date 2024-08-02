@@ -9,6 +9,7 @@
 body {
   justify-content: center;
   width: 100%;
+  max-height: 100vh;
   text-align: center;
   align-items: center;
   font-family: "Hanken Grotesk", sans-serif;
@@ -249,4 +250,9 @@ button {
 
 button:hover{
   background-color: seagreen;
+}
+
+.attribution {
+  font-size: 18px;
+  margin-top: -20px;
 }
